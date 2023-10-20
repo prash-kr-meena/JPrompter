@@ -1,10 +1,13 @@
 package com.meena.strategies;
 
 import java.io.PrintStream;
+import lombok.Setter;
 
 public abstract class AbstractPromptStrategy<A> implements PromptStrategy<A> {
 
-  private final String prompt;
+  // This setter is only required the InputMenu Class, as till Jdk 21, it is not allowed to call a method before calling super constructor
+  @Setter // Don't abuse it
+  private String prompt;
   private final String errorPrompt;
   private final boolean promptInLine;
 
