@@ -1,5 +1,6 @@
-package com.meena.strategies;
+package com.meena.strategies.integer;
 
+import com.meena.strategies.AbstractPromptStrategy;
 import java.util.Scanner;
 
 public class InputInteger extends AbstractPromptStrategy<Integer> {
