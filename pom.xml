@@ -25,8 +25,7 @@
   </distributionManagement>
 
   <scm>
-    <connection>scm:git:ssh://git@github.com:prash-kr-meena/JPrompter.git</connection>
-    <!--    <tag>v1.0.48</tag>-->
+    <connection>scm:git:ssh://git@github.com/prash-kr-meena/JPrompter.git</connection>
   </scm>
 
   <dependencies>
