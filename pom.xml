@@ -2,8 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.meena</groupId>
-  <artifactId>JPrompter</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <artifactId>jprompter</artifactId>
+  <version>1.5-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>JPrompt</name>
